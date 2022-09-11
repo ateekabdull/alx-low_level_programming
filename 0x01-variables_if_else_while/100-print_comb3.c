@@ -7,13 +7,24 @@
  */
 int main(void)
 {
-	int dig;
+	int a, b;
 
-	for (dig = '0'; dig <= '9'; dig++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		putchar(dig);
-		putchar(',');
-		putchar(' ');
+		for (b = a + 1; b <= '9'; b++)
+		{
+			if (a != b)
+			{
+				putchar(a);
+				putchar(b);
+
+				if (a == '8' && p == '9')
+					continue;
+
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
