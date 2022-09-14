@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabets - dnkdk
+ * print_alphabet - dnkdk
  *
  * Return: 0
  */
