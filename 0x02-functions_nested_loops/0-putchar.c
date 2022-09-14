@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * main - dsjkjdsjd
@@ -7,7 +8,7 @@
  */
 int main(void)
 {
-	_putchar('_putchar\n');
+	_putchar(1, "_putchar\n", 10);
 
 	return (0);
 }
