@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
  * main - dsjkjdsjd
@@ -8,7 +7,15 @@
  */
 int main(void)
 {
-	_putchar("\_putchar\n");
+	char putchar[] = "_putchar";
+	int i = 0;
+	
+	while (putchar[i] != '\0')
+	{
+		_putchar(putchar[i]);
+		i++;
+	}
+	_putchar('\n');
 
 	return (0);
 }
