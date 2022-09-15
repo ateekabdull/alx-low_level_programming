@@ -5,9 +5,9 @@
  * Description: If `n` is greater than 15 or less than 0, print nothing.
  * @n: int type number
  */
-void print_times_table(int n)
+void times_table(void)
 {
-	int x = 0, y, z;
+	int x = 0, y, z, n;
 
 	if (n > 15 || n < 0)
 		return;
