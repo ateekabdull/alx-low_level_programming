@@ -5,7 +5,7 @@
  * @n: An input integer value
  * Return: Nothing
  */
-void times_table(int n)
+void times_table(void)
 {
 	int i, j;
 
