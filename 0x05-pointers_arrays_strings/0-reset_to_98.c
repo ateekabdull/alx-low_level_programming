@@ -3,6 +3,8 @@
 /**
  * reset_to_98 - updates a pointer
  *
+ * @n: is the pointer
+ *
  * Return: nothing
  */
 
