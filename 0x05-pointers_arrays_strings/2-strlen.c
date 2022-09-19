@@ -9,7 +9,14 @@
  */
 int _strlen(char *s)
 {
-	int length = sizeof(*s) / sizeof(char);
+	int length;
 
-	return length;
+	for (int i = 0; s[i] != '\0'; ++i)
+		_putchar(s[i]);
+
+	length = i;
+
+
+
+	return (length);
 }
