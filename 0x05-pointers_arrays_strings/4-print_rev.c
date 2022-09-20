@@ -18,3 +18,21 @@ void print_rev(char *s)
 
 	_putchar('\n');
 }
+
+/**
+ * _strlen - kjdff
+ *
+ * @p: the pointer
+ *
+ * Return: 0
+ */
+int _strlen(char *p)
+{
+	int i;
+
+	for (i = 0; p[i] != '\0'; i++)
+	{
+	}
+	return (i);
+
+}
