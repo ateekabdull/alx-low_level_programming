@@ -8,29 +8,18 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	if (s == NULL || accept == NULL)
-		return (NULL);
+	char *start = accept;
 
 	while (*s)
 	{
-		if (_strchr(accept, *s))
-			return (s);
+		while (*accept)
+		{
+			if (*accept == *s)
+				return (s);
+			accept++;
+		}
+		accept = start;
 		s++;
 	}
-	return (NULL);
-}
-
-/**
- * *_strchr - jkkjfsj
- * @s: idsfidfidf
- * @c: jffjfjf
- * Return: dfklklfd
- */
-char *_strchr(char *s, char c)
-{
-	do	{
-		if (*s == c)
-			return (s);
-	} while (*s++);
 	return (NULL);
 }
