@@ -7,13 +7,10 @@
  */
 int _sqrt_recursion(int n)
 {
-	int temp = 2;
 
 	if (n < 0)
 		return (-1);
-	else if (n == 0 || n == 1)
-		return (n);
-	return (isqrt(n, temp));
+	return (isqrt(1, n));
 }
 
 /**
@@ -24,9 +21,9 @@ int _sqrt_recursion(int n)
  */
 int isqrt(int n, int i)
 {
-	if (i * i < n)
+	if (n > i)
 		return (-1);
-	if (i * i == n)
-		return (i);
-	return (isqrt(n, i + 1));
+	else if (n * n == root)
+		return (n);
+	return (isqrt(n + 1, i));
 }
