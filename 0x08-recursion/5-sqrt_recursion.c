@@ -23,7 +23,7 @@ int isqrt(int n, int i)
 {
 	if (n > i)
 		return (-1);
-	else if (n * n == root)
+	else if (n * n == i)
 		return (n);
 	return (isqrt(n + 1, i));
 }
