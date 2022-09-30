@@ -6,7 +6,7 @@
  * @argv: array
  * Return: zero
  */
-int main(int argc, char *argc[])
+int main(int argc, char *argv[])
 {
 	if (argv[0])
 		printf("%d\n", argc - 1);
