@@ -1,11 +1,11 @@
 #ifndef DOG_H
 #define DOG_H
+
 /**
  * struct dog - defines a new struct
  * @name: name
  * @age: age
  * @owner: owner
- * Return: 0
  */
 struct dog
 {
