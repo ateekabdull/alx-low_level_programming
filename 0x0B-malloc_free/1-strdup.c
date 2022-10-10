@@ -36,7 +36,7 @@ char *_strdup(char *str)
 
 	temp = (char *)malloc(sizeof(char) * _strlen(str) + 1);
 
-	for (i = 0; i < _strlen(str) - 1; i++)
+	for (i = 0; i < _strlen(str); i++)
 	{
 		temp[i] = str[i];
 	}
