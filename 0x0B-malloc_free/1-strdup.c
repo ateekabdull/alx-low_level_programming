@@ -35,6 +35,8 @@ char *_strdup(char *str)
 		return (NULL);
 
 	temp = (char *)malloc(sizeof(char) * _strlen(str) + 1);
+	if (temp == NULL)
+		return (NULL);
 
 	for (i = 0; i < _strlen(str); i++)
 	{
