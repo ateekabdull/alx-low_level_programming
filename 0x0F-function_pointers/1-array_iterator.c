@@ -1,4 +1,6 @@
 #include <stddef.h>
+#Include <stdio.h>
+#include <stdlib.h>
 #include "function_pointers.h"
 
 /**
