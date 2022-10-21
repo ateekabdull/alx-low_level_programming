@@ -39,7 +39,3 @@ int string_length(const char *pointer)
 	}
 	return (c);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
